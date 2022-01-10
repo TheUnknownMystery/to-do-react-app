@@ -1,0 +1,27 @@
+.add-foarm {
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.add-foarm__input {
+	flex-grow: 1;
+	height: 40px;
+	border: 1.4px solid #efefef;
+	color: #bbb8b8;
+	border-radius: 5px;
+	padding-left: 20px;
+	font-size: 16px
+}
+
+.add-foarm__submit {
+	background-color: #ffffff;
+	border-radius: 4px;
+	border: 1.4px solid #efefef;
+	border-color: #efefef;
+	width: 16%;
+	margin-left: 10px;
+	font-size: 15px;
+	font-family: cursive;
+}

@@ -3,7 +3,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/index.js',
   output: {
     path: path.join(__dirname, 'public'),
     //output filename
@@ -15,7 +15,7 @@ module.exports = {
         loader: 'babel-loader',
         //regular expression
         //regex is used to match the file extension
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
       },
       //adding normal css
