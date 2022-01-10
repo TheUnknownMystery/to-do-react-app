@@ -11,6 +11,8 @@ export function App() {
 
   const submitFoarm = (e) => {
     e.preventDefault();
+    if (e.target.input.value === '') return;
+
     if (task.indexOf(e.target.input.value) > -1) {
       return alert('Task already exists');
     }
